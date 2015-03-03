@@ -43,3 +43,6 @@ o Select the “Always Allow” option.
 o Click the “Edit locations” pop-up menu and add a location for GenieLibrary.swf. This is the
 same location you added to mm.cfg.
 o Close the browser.
+
+Full instruction of usage you can find here:
+http://download2.polytechnic.edu.na/pub4/sourceforge/g/ge/genie.adobe/documents/UserGuide.pdf
