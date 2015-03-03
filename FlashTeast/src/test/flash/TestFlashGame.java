@@ -42,10 +42,10 @@ public class TestFlashGame {
 		
 		//add game flirt
 		driver.findElement(By.xpath(".//div[@id='side_bar']//span[contains(.,'Applications')]")).click();
-		driver.findElement(By.xpath(".//div[@id='apps']//input")).sendKeys("ФлиртоМания");
+		driver.findElement(By.xpath(".//div[@id='apps']//input")).sendKeys("Р¤Р»РёСЂС‚РѕРњР°РЅРёСЏ");
 		
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-		wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath(".//div[@id='apps_search_cat_wrap']//div[@class='apps_cat_info']//a//span[1]"), "ФлиртоМания"));
+		wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath(".//div[@id='apps_search_cat_wrap']//div[@class='apps_cat_info']//a//span[1]"), "Р¤Р»РёСЂС‚РѕРњР°РЅРёСЏ"));
 		
 		driver.findElement(By.xpath(".//div[@id='apps_search_cat_wrap']//div[@class='apps_cat_info']//a//span[1]")).click();
 		driver.findElement(By.xpath(".//div[@class='box_x_button']")).click();
